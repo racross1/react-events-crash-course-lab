@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 1,
+    "pending": 0,
+    "failures": 4,
+    "start": "2021-02-03T18:52:16.282Z",
+    "end": "2021-02-03T18:52:16.328Z",
+    "duration": 46
+  },
+  "tests": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleMouseMove (src/ChromeBoisDomain.js:13:11)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:33:14)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:54:30)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'args' of null\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:67:12)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "Cannot read property 'args' of null"
+      }
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'args' of null\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:81:12)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "Cannot read property 'args' of null"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "fullTitle": "<ChromeBoisDomain /> invokes the `drawChromeBoiAtCoords` method within `handleMouseMove`, passing the captured x and y values of the mouse from the event",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: event.preventDefault is not a function\n    at ChromeBoisDomain._this.handleMouseMove (src/ChromeBoisDomain.js:13:11)\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:33:14)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "event.preventDefault is not a function"
+      }
+    },
+    {
+      "title": "has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for key presses on the <canvas> element that triggers `resize`",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:54:30)\n    at processImmediate (node:internal/timers:463:21)"
+      }
+    },
+    {
+      "title": "when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "fullTitle": "<ChromeBoisDomain /> when the 'a' key is pressed, `resize` is invoked with the argument of '+'",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'args' of null\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:67:12)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "Cannot read property 'args' of null"
+      }
+    },
+    {
+      "title": "when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "fullTitle": "<ChromeBoisDomain /> when the 's' key is pressed, `resize` is invoked with the argument of '-'",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'args' of null\n    at Context.<anonymous> (test/ChromeBoisDomainTest.js:81:12)\n    at processImmediate (node:internal/timers:463:21)",
+        "message": "Cannot read property 'args' of null"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "fullTitle": "<ChromeBoisDomain /> has an event listener for clicks on the <canvas> element that triggers `toggleCycling`",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
